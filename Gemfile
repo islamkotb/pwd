@@ -50,7 +50,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'capybara'
   gem 'database_cleaner'
-  # , '~> 1.3'
+  
   gem 'rails-controller-testing'
   gem 'factory_girl_rails'
   gem 'poltergeist'
