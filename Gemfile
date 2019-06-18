@@ -20,6 +20,8 @@ gem 'rails', '~> 5.1.1'
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+gem 'puma'
+gem 'sqlite'
 group :development, :test do
   # gem 'jasmine-rails',        github: 'searls/jasmine-rails'
   # gem 'jasmine-jquery-rails', github: 'travisjeffery/jasmine-jquery-rails'
