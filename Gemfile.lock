@@ -316,8 +316,11 @@ GEM
       pry (~> 0.10)
     psych (3.1.0)
     public_suffix (3.0.3)
+    puma (4.3.0)
+      nio4r (~> 2.0)
     rack (2.0.6)
-    rack-cors (1.0.2)
+    rack-cors (1.0.6)
+      rack (>= 1.6.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.1.6.2)
@@ -431,6 +434,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.1)
     thor (0.20.3)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -474,6 +478,7 @@ DEPENDENCIES
   poltergeist
   property_web_scraper!
   pry-byebug
+  puma
   pwb!
   rails (~> 5.1.1)
   rails-controller-testing
@@ -483,6 +488,7 @@ DEPENDENCIES
   ruby-prof (= 0.15.9)
   shoulda-matchers
   simplecov
+  sqlite3
   vcr
   webmock
   yui-compressor
